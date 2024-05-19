@@ -1,5 +1,4 @@
-loghunter by NineJalapenos
-ninejalapenos@proton.me
+loghunter ninejalapenos@proton.me
 
 ## COLLECTION
 collect all lines from all files matching file_name recursively in the scan_directory
