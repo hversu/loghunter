@@ -1,8 +1,8 @@
 loghunter ninejalapenos@proton.me
 
 # COLLECTION
-collect all lines from all files matching file_name recursively in the scan_directory
-pair each line with it's parent directory and write as a row in csv output
+1. collect all lines from all files matching file_name recursively in the scan_directory
+3. pair each line with it's parent directory and write as a row in csv output
 
 `cargo run scan_directory file_name_to_hunt output_file`
 
