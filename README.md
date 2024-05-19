@@ -1,13 +1,12 @@
 loghunter ninejalapenos@proton.me
 
-## COLLECTION
+# COLLECTION
 collect all lines from all files matching file_name recursively in the scan_directory
 pair each line with it's parent directory and write as a row in csv output
 
 `cargo run scan_directory file_name_to_hunt output_file`
 
-# examples using 202405 directory with collected folder for output
-assuming all data files to search are in ~/data:
+## examples using data directory with collected folder for output
 ```
 cargo run ~/data .bash_history collected/bash_histories.csv
 cargo run ~/data access.log collected/access_logs.csv
@@ -17,10 +16,10 @@ cargo run ~/data .mysql_history collected/mysql_histories.csv
 cargo run ~/data authorized_keys collected/authorized_keys.csv
 ```
 
-## ANALYSIS
+# ANALYSIS
 searches all logs for keyword and reports directoryparent (ip) and matching lines
 `bash lsearch.sh <keyword>`
 
-# example searching logs for netcat usage
+## example searching logs for netcat usage
 
 `bash ~/collector/collected/lsearch.sh netcat`
