@@ -11,7 +11,7 @@ loghunter ninejalapenos@proton.me
 cargo run ~/data .bash_history collected/bash_histories.csv
 cargo run ~/data access.log collected/access_logs.csv
 cargo run ~/data .zsh_history collected/zsh_histories.csv
-cargo run ~/data .python_history collected/python_histories.csvcargo run ~/data/202405 known_hosts collected/known_hosts.csv
+cargo run ~/data .python_history collected/python_histories.csvcargo run ~/data/ known_hosts collected/known_hosts.csv
 cargo run ~/data .mysql_history collected/mysql_histories.csv
 cargo run ~/data authorized_keys collected/authorized_keys.csv
 ```
